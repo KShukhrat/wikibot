@@ -3,11 +3,11 @@ import wikipedia as w
 import logging
 
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO)
 
 w.set_lang("ru")
-# Configure bot
+
 TOKEN = '5327095492:AAGbxmcWU4F48HnrTBkwmZODQ7abNvOiRiI'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
