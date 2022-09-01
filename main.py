@@ -6,17 +6,17 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-w.set_lang("ru")
+w.set_lang("uz")
 
-TOKEN = '5327095492:AAGbxmcWU4F48HnrTBkwmZODQ7abNvOiRiI'
+TOKEN = 'FOR TOKEN'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def cmd_start(message: types.Message):
-    await message.reply("""Hello, I'm Wikipedia bot.
-                        I can search for you wikipedia articles.
-                        Just send me a word or phrase and I'll search for it.""")
+    await message.reply("""Wikipeida Botiga Xush Kelibsiz!
+                            Siz hohlagan narsangizni qidiridirishingiz mumkin.
+                            Qidirish uchun kerakli bo'lgan matnnit kiriting!!!""")
 
 @dp.message_handler(commands=["help"])
 async def cmd_help(message: types.Message):
