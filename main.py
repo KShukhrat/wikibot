@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 w.set_lang("ru")
 
-TOKEN = '5327095492:AAGbxmcWU4F48HnrTBkwmZODQ7abNvOiRiI'
+TOKEN = 'FOR TOKEN'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
