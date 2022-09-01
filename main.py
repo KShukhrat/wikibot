@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-w.set_lang("ru")
+w.set_lang("uz")
 
 TOKEN = 'FOR TOKEN'
 bot = Bot(token=TOKEN)
